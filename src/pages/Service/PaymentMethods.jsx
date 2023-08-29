@@ -1,4 +1,4 @@
-import WorkInProgress from './WorkInProgress';
+import WorkInProgress from '../../components/WorkInProgress';
 
 function PaymentMethods() {
   return (
