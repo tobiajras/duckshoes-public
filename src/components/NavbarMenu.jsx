@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { AiFillHome } from 'react-icons/ai';
 import { RiShoppingBagFill } from 'react-icons/ri';
 import { PiSneakerFill } from 'react-icons/pi';
-import { MdAccountCircle } from 'react-icons/md';
 import { MdFavorite } from 'react-icons/md';
 import { BiSolidHelpCircle } from 'react-icons/bi';
 
@@ -88,13 +87,13 @@ function NavbarMenu({ navbarMenu, setNavbarMenu, setCartMenu }) {
         </li>
         <li>
           <Link
-            to='/help'
+            to='/service'
             onClick={() => navAndCartOff()}
             className='flex gap-2 items-center p-2 sm:gap-3 sm:p-3 md:p-1'
           >
             <BiSolidHelpCircle className='fill-background md:hidden' />
             <h5 className='text-background font-bold md:text-white md:font-normal md:hover:text-primaryLight transition-colors'>
-              Help
+              Service
             </h5>
           </Link>
         </li>

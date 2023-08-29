@@ -1,6 +1,6 @@
 function HowWeDeliver() {
   return (
-    <section className='md:flex '>
+    <section className='md:flex md:mr-36'>
       <div className=''>
         <h3 className='font-bold text-lg mb-3 sm:mb-5 sm:text-3xl'>
           How we deliver
