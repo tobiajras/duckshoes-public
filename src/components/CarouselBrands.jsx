@@ -18,7 +18,7 @@ function CarouselBrands() {
 
   return (
     <div className='flex justify-center items-center'>
-      <div className='flex justify-center items-center gap-3 md:gap-10 max-w-6xl mx-3 sm:mx-20 w-full'>
+      <div className='flex justify-center items-center gap-3 md:gap-10 max-w-6xl mx-3 my-3 sm:mx-10 sm:my-5 md:my-8 md:mx-20 w-full'>
         <button
           className='flex justify-center items-center bg-white h-full rounded-full p-1 md:p-3 shadow-md'
           onClick={scrollPrev}
@@ -27,7 +27,7 @@ function CarouselBrands() {
         </button>
         <div ref={emblaRef} className='overflow-hidden'>
           <div className='flex gap-10'>
-            <div className='flex items-center justify-center gap-6 sm:gap-10 md:gap-16 flex-[0_0_100%]'>
+            <div className='flex items-center justify-center gap-4 sm:gap-10 md:gap-16 flex-[0_0_100%]'>
               <div className=''>
                 <img
                   className='w-full h-full'
@@ -71,7 +71,7 @@ function CarouselBrands() {
                 />
               </div>
             </div>
-            <div className='flex items-center justify-center gap-6 sm:gap-10 md:gap-16 flex-[0_0_100%]'>
+            <div className='flex items-center justify-center gap-4 sm:gap-10 md:gap-16 flex-[0_0_100%]'>
               <div className=''>
                 <img
                   className='w-full h-full'
