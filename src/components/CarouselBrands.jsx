@@ -28,42 +28,42 @@ function CarouselBrands() {
         <div ref={emblaRef} className='overflow-hidden'>
           <div className='flex gap-10'>
             <div className='flex items-center justify-center gap-4 sm:gap-10 md:gap-16 flex-[0_0_100%]'>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/champion.svg'
                   alt='champion logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/nike.svg'
                   alt='nike logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/fila.svg'
                   alt='fila logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/converse.svg'
                   alt='converse logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/gucci.svg'
                   alt='gucci logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/offwhite.svg'
@@ -72,42 +72,42 @@ function CarouselBrands() {
               </div>
             </div>
             <div className='flex items-center justify-center gap-4 sm:gap-10 md:gap-16 flex-[0_0_100%]'>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/newbalance.svg'
                   alt='newbalance logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/adidas.svg'
                   alt='adidas logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/vans.svg'
                   alt='vans logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/puma.svg'
                   alt='puma logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/underarmour.svg'
                   alt='underarmour logo'
                 />
               </div>
-              <div className=''>
+              <div className='w-full'>
                 <img
                   className='w-full'
                   src='/assets/brands/dc.svg'
