@@ -18,7 +18,7 @@ function CarouselBrands() {
 
   return (
     <div className='flex justify-center items-center'>
-      <div className='flex justify-center items-center gap-3 md:gap-10 max-w-6xl mx-3 my-3 sm:mx-10 sm:my-5 md:my-8 md:mx-20 w-full'>
+      <div className='flex justify-center items-center gap-3 md:gap-10 max-w-6xl mx-3 my-5 sm:mx-10 sm:my-10 md:my-16 md:mx-20 w-full'>
         <button
           className='flex justify-center items-center bg-white h-full rounded-full p-1 md:p-3 shadow-md'
           onClick={scrollPrev}
