@@ -1,8 +1,8 @@
-import { BsFillBagCheckFill } from 'react-icons/bs';
-import { FaRegHandPointer } from 'react-icons/fa';
-import { FaShippingFast } from 'react-icons/fa';
-import { BiSupport } from 'react-icons/bi';
-import { LuPackageOpen } from 'react-icons/lu';
+import { BsCashStack } from 'react-icons/bs';
+import { BsCreditCard } from 'react-icons/bs';
+import { AiOutlineBank } from 'react-icons/ai';
+import { LiaPaypal } from 'react-icons/lia';
+import { BiWallet } from 'react-icons/bi';
 
 function PaymentMethods() {
   return (
@@ -12,30 +12,74 @@ function PaymentMethods() {
           Payment Methods
         </h3>
         <p className='md:text-lg'>
-          At Duck Shoes, we take pride in offering our valued customers a
-          straightforward and secure shopping experience. Here's how you can
-          purchase your favorite products quickly and easily.
+          At Duck Shoes, we strive to provide our valued customers with a wide
+          range of payment options to cater to your preferences. Here are the
+          available payment methods:
         </p>
-        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
-          <FaRegHandPointer className='text-5xl fill-primaryDark ' />
-          <h5>Select Your Products</h5>
+        <div className='my-3 sm:my-5 text-lg'>
+          <div className='flex items-center gap-3 '>
+            <span className='bg-white p-2.5 rounded-full ring-2 ring-primaryDark'>
+              <BsCashStack className='text-3xl fill-primaryDark' />
+            </span>
+            <h5 className='font-semibold'>Cash</h5>
+          </div>
+          <p className='mt-2 opacity-75'>
+            For those who prefer paying in cash, we offer the option to pay in
+            person when you receive your order. Please have the exact amount
+            ready for our delivery team to ensure a smooth transaction.
+          </p>
         </div>
-        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
-          <BsFillBagCheckFill className='text-5xl fill-primaryDark' />
-          <h5>Order Processing</h5>
+        <div className='my-3 sm:my-5 text-lg'>
+          <div className='flex items-center gap-3 '>
+            <span className='bg-white p-2.5 rounded-full ring-2 ring-primaryDark'>
+              <BsCreditCard className='text-3xl fill-primaryDark' />
+            </span>
+            <h5 className='font-semibold'>Credit or Debit Card</h5>
+          </div>
+          <p className='mt-2 opacity-75'>
+            You can securely enter your card details for a quick and hassle-free
+            transaction. This method is ideal for those who wish to make
+            efficient online payments.
+          </p>
         </div>
-        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
-          <BiSupport className='text-5xl fill-primaryDark' />
-
-          <h5>Shipping and Tracking</h5>
+        <div className='my-3 sm:my-5 text-lg'>
+          <div className='flex items-center gap-3 '>
+            <span className='bg-white p-2.5 rounded-full ring-2 ring-primaryDark'>
+              <LiaPaypal className='text-3xl fill-primaryDark' />
+            </span>
+            <h5 className='font-semibold'>PayPal</h5>
+          </div>
+          <p className='mt-2 opacity-75'>
+            Use your PayPal account for a seamless payment experience. PayPal is
+            known for its security and user-friendliness, making it an excellent
+            choice for online shoppers.
+          </p>
         </div>
-        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
-          <FaShippingFast className='text-5xl fill-primaryDark' />
-          <h5>Delivery</h5>
+        <div className='my-3 sm:my-5 text-lg'>
+          <div className='flex items-center gap-3 '>
+            <span className='bg-white p-2.5 rounded-full ring-2 ring-primaryDark'>
+              <AiOutlineBank className='text-3xl fill-primaryDark' />
+            </span>
+            <h5 className='font-semibold'>Bank Transfer</h5>
+          </div>
+          <p className='mt-2 opacity-75'>
+            If you prefer to make a bank transfer, select this option and follow
+            the provided instructions. It's a suitable choice for those who want
+            to make payments directly from their bank accounts.
+          </p>
         </div>
-        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
-          <LuPackageOpen className='text-5xl stroke-primaryDark' />
-          <h5>Receive Your Order</h5>
+        <div className='my-3 sm:my-5 text-lg'>
+          <div className='flex items-center gap-3 '>
+            <span className='bg-white p-2.5 rounded-full ring-2 ring-primaryDark'>
+              <BiWallet className='text-3xl fill-primaryDark' />
+            </span>
+            <h5 className='font-semibold'>Digital Wallets</h5>
+          </div>
+          <p className='mt-2 opacity-75'>
+            We also accept various digital wallets like Apple Pay and Google Pay
+            to offer you added convenience. Link your preferred digital wallet
+            and make quick and secure payments.
+          </p>
         </div>
       </div>
     </section>
