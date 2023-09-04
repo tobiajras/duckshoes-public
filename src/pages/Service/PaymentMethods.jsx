@@ -1,5 +1,5 @@
 import { BsFillBagCheckFill } from 'react-icons/bs';
-import { GrSelect } from 'react-icons/gr';
+import { FaRegHandPointer } from 'react-icons/fa';
 import { FaShippingFast } from 'react-icons/fa';
 import { BiSupport } from 'react-icons/bi';
 import { LuPackageOpen } from 'react-icons/lu';
@@ -16,25 +16,25 @@ function PaymentMethods() {
           straightforward and secure shopping experience. Here's how you can
           purchase your favorite products quickly and easily.
         </p>
-        <div className='flex items-center gap-1 my-3 sm:my-5'>
-          <GrSelect />
+        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
+          <FaRegHandPointer className='text-5xl fill-primaryDark ' />
           <h5>Select Your Products</h5>
         </div>
-        <div className='flex items-center gap-1 my-3 sm:my-5'>
-          <BsFillBagCheckFill />
+        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
+          <BsFillBagCheckFill className='text-5xl fill-primaryDark' />
           <h5>Order Processing</h5>
         </div>
-        <div className='flex items-center gap-1 my-3 sm:my-5'>
-          <BiSupport />
+        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
+          <BiSupport className='text-5xl fill-primaryDark' />
 
           <h5>Shipping and Tracking</h5>
         </div>
-        <div className='flex items-center gap-1 my-3 sm:my-5'>
-          <FaShippingFast />
+        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
+          <FaShippingFast className='text-5xl fill-primaryDark' />
           <h5>Delivery</h5>
         </div>
-        <div className='flex items-center gap-1 my-3 sm:my-5'>
-          <LuPackageOpen />
+        <div className='flex items-center gap-3 my-3 sm:my-5 font-semibold text-lg'>
+          <LuPackageOpen className='text-5xl stroke-primaryDark' />
           <h5>Receive Your Order</h5>
         </div>
       </div>

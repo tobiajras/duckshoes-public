@@ -33,7 +33,7 @@ function NavbarMenu({ navbarMenu, setNavbarMenu, setCartMenu }) {
         transition={{ duration: 0.3 }}
         className={`${
           !navbarMenu ? 'md:left-[-100%]' : ''
-        } absolute top-24 right-0 z-30 w-1/2 h-screen drop-shadow-md p-3 bg-white text-xl flex flex-col sm:p-5 md:top-0 md:flex-row md:h-full md:left-0 md:w-full md:relative md:bg-background md:text-lg md:items-center md:p-0 md:gap-4`}
+        } absolute top-20 md:top-0 right-0 z-30 w-1/2 h-screen drop-shadow-md p-3 bg-white text-xl flex flex-col sm:p-5 md:top-0 md:flex-row md:h-full md:left-0 md:w-full md:relative md:bg-background md:text-lg md:items-center md:p-0 md:gap-4`}
       >
         <li>
           <Link
@@ -102,7 +102,7 @@ function NavbarMenu({ navbarMenu, setNavbarMenu, setCartMenu }) {
         animate={!navbarMenu ? 'inactive' : 'active'}
         variants={menuVariants}
         transition={{ duration: 0.3 }}
-        className={`absolute bg-black h-screen w-screen top-24 left-0 md:hidden ${
+        className={`absolute bg-black h-screen w-screen top-20 md:top-24 left-0 md:hidden ${
           !navbarMenu && 'pointer-events-none'
         }`}
         onClick={() => setNavbarMenu(false)}

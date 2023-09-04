@@ -47,9 +47,9 @@ function Navbar() {
   };
 
   return (
-    <header className=' flex flex-col justify-center bg-background px-3 h-24 fixed w-full z-40 sm:px-5 '>
+    <header className=' flex flex-col justify-center bg-background px-3 h-20 md:h-24 fixed w-full z-40 sm:px-5 '>
       <CartMenu cartMenu={cartMenu} setCartMenu={setCartMenu} />
-      <nav className='flex gap-x-3 sm:gap-x-5 md:gap-x-10 gap-y-2 w-full items-center lg:max-w-6xl mx-auto gridNavbar h-full md:py-3'>
+      <nav className='flex gap-x-3 sm:gap-x-5 md:gap-x-10 sm:gap-y-2 w-full items-center lg:max-w-6xl mx-auto gridNavbar h-full md:py-3'>
         <div className=''>
           <Link to='/'>
             <h3 className='text-white font-semibold w-full flex text-lg gap-2 sm:text-2xl'>
@@ -94,17 +94,26 @@ function Navbar() {
             )}
           </button>
         </div>
-        <div className='text-sm sm:text-base text-white overflow-hidden flex items-center gap-1'>
+        <div className='text-sm sm:text-base text-white hidden md:flex items-center gap-1'>
           <IoLocationSharp />
           <h5>Buenos Aires</h5>
         </div>
+        <div className='hidden md:block'>
+          <NavbarMenu
+            navbarMenu={navbarMenu}
+            setNavbarMenu={setNavbarMenu}
+            setCartMenu={setCartMenu}
+          />
+        </div>
+        <div className='hidden'></div>
+      </nav>
+      <div className='md:hidden'>
         <NavbarMenu
           navbarMenu={navbarMenu}
           setNavbarMenu={setNavbarMenu}
           setCartMenu={setCartMenu}
         />
-        <div></div>
-      </nav>
+      </div>
     </header>
   );
 }
