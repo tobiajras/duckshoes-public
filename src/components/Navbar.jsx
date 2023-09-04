@@ -70,7 +70,7 @@ function Navbar() {
             onChange={(e) => setInputSearch(e.target.value)}
           />
         </form>
-        <div className='flex items-center gap-3 text-3xl justify-end'>
+        <div className='flex items-center gap-3 md:gap-0 text-3xl justify-end'>
           <div></div>
           <button onClick={handleCart}>
             {cartMenu ? (
