@@ -64,7 +64,7 @@ function Navbar() {
             onClick={() => {
               setCartMenu(false), setNavbarMenu(false);
             }}
-            className='align-middle outline-none border-none rounded-l-sm  p-1 px-2 w-full sm:max-w-md md:max-w-lg sm:text-lg'
+            className='align-middle outline-none border-none rounded-tl-sm rounded-bl-sm p-1 px-2 w-full sm:max-w-md md:max-w-lg sm:text-lg'
             type='text'
             placeholder='search...'
             value={inputSearch}
@@ -72,7 +72,7 @@ function Navbar() {
             id='search'
           />
           <label
-            className='flex justify-center items-center px-2 border-l-2 bg-white rounded-r-sm'
+            className='flex justify-center items-center px-2 border-l-2 bg-white rounded-tr-sm rounded-br-sm'
             htmlFor='search'
           >
             <AiOutlineSearch />
