@@ -87,9 +87,7 @@ function AppProvider({ children }) {
     try {
       const response = await axios.get('/sneakers.json');
       setProducts(response.data);
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
   };
 
   const contextObj = {

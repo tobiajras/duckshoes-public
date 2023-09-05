@@ -62,8 +62,6 @@ function ProductDetails() {
     }
   };
 
-  console.log(productFound);
-
   function compare(a, b) {
     return a - b;
   }
