@@ -11,7 +11,7 @@ function HowToBuy() {
         <h3 className='font-bold text-lg mb-3 sm:mb-5 sm:text-3xl'>
           How to buy
         </h3>
-        <p className='md:text-lg'>
+        <p className='md:text-lg opacity-75'>
           At Duck Shoes, we take pride in offering our valued customers a
           straightforward and secure shopping experience. Here's how you can
           purchase your favorite products quickly and easily.

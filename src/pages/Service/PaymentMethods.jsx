@@ -11,7 +11,7 @@ function PaymentMethods() {
         <h3 className='font-bold text-lg mb-3 sm:mb-5 sm:text-3xl'>
           Payment Methods
         </h3>
-        <p className='md:text-lg'>
+        <p className='md:text-lg opacity-75'>
           At Duck Shoes, we strive to provide our valued customers with a wide
           range of payment options to cater to your preferences. Here are the
           available payment methods:

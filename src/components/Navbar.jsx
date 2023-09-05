@@ -6,6 +6,7 @@ import { RiShoppingBagLine } from 'react-icons/ri';
 import { HiMenu } from 'react-icons/hi';
 import { TiTimes } from 'react-icons/ti';
 import { IoLocationSharp } from 'react-icons/io5';
+import { AiOutlineSearch } from 'react-icons/ai';
 
 import NavbarMenu from './NavbarMenu';
 import CartMenu from './CartMenu';
@@ -63,12 +64,19 @@ function Navbar() {
             onClick={() => {
               setCartMenu(false), setNavbarMenu(false);
             }}
-            className='align-middle outline-none border-none rounded p-1 px-2 w-full sm:max-w-md md:max-w-lg sm:text-xl'
+            className='align-middle outline-none border-none rounded-l-sm  p-1 px-2 w-full sm:max-w-md md:max-w-lg sm:text-lg'
             type='text'
-            placeholder='search product...'
+            placeholder='search...'
             value={inputSearch}
             onChange={(e) => setInputSearch(e.target.value)}
+            id='search'
           />
+          <label
+            className='flex justify-center items-center px-2 border-l-2 bg-white rounded-r-sm'
+            htmlFor='search'
+          >
+            <AiOutlineSearch />
+          </label>
         </form>
         <div className='flex items-center gap-3 md:gap-0 text-3xl justify-end'>
           <div></div>

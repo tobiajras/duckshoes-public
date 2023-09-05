@@ -153,14 +153,6 @@ function Footer() {
                   Login
                 </Link>
               </li>
-              <li>
-                <Link
-                  to='/service'
-                  className='md:hover:text-primaryExtraDark transition-colors'
-                >
-                  Service
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
